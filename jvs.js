@@ -1,4 +1,4 @@
- devs= {  "developer1": {
+ var devs= {  "developer1": {
     "name": "Agola",
     "age": "24",
     "position": "Senior software Developer",
@@ -15,8 +15,10 @@
 var obj= JSON.parse(devs);
 
 var values="";
- for(var i in obj)
+
+ for(var i in obj){
     values+= obj[i].name;
+ }
 
 var nam= obj.developer1.name;
 document.getElementByClassName("jsn").innerHTML= values;
