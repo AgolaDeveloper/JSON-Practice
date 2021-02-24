@@ -1,2 +1,14 @@
-
-var myJson=
+{"developers": [   "developer1":{
+    "name": "Owino",
+    "age": "23",
+    "position": "Junior software Developer",
+    "salary": "USD 2200"
+},
+    "developer2": {
+    "name": "Owino",
+    "age": "23",
+    "position": "Junior software Developer",
+    "salary": "USD 2200"
+}
+]
+}
